@@ -62,7 +62,7 @@
             <span>O0O</span>
         </a>
         
-        <a href="/">
+        <a target="_blank" rel="noopener" href="https://github.com/yxp-o0o">
             <i class="fa-solid fa-house fa-fw"></i>
             <span>&ensp;主页</span>
         </a>
@@ -87,6 +87,11 @@
             <span>&ensp;标签</span>
         </a>
         
+        <a target="_blank" rel="noopener" href="https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/android_default">
+            <i class="fa-solid fa-play fa-fw"></i>
+            <span>&ensp;启动</span>
+        </a>
+        
     </nav>
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
@@ -96,7 +101,7 @@
         <transition name="slide">
             <div class="items" v-show="showMenuItems">
                 
-                <a href="/">
+                <a target="_blank" rel="noopener" href="https://github.com/yxp-o0o">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
                             <i class="fa-solid fa-house fa-fw"></i>
@@ -138,6 +143,15 @@
                             <i class="fa-solid fa-tags fa-fw"></i>
                         </div>
                         <div style="min-width: 100px; max-width: 150%; width: 20%">标签</div>
+                    </div>
+                </a>
+                
+                <a target="_blank" rel="noopener" href="https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/android_default">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-play fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">启动</div>
                     </div>
                 </a>
                 
